@@ -2,7 +2,7 @@ def find_min_value(array)
   count = -1
   min_value = array[count]
   while count < array.length  do
-      if array[count] < min_value
+      if min_value < array[count]
         min_value = array[count]
       end
     count += 1
